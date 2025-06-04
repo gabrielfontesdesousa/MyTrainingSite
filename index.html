@@ -6,278 +6,114 @@
     <title>FontesWorkout</title>
     <link rel="icon" type="image/png" href="./icons8-gym-32.png" />
     <link rel="stylesheet" href="style.css" />
-    <script src="./script.css"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <h1>Treino do Fontes esqueça tudo bb</h1>
     <p>Treino Full Body 4x – Hipertrofia</p>
     <div class="card">
-      <h2>📅 Divisão Semanal</h2>
-      <table>
-        <tr>
-          <th>Dia</th>
-          <th>Treino</th>
-        </tr>
-        <tr>
-          <td>Segunda</td>
-          <td>Full Body A</td>
-        </tr>
-        <tr>
-          <td>Terça</td>
-          <td>Full Body B</td>
-        </tr>
-        <tr>
-          <td>Quarta</td>
-          <td>Descanso</td>
-        </tr>
-        <tr>
-          <td>Quinta</td>
-          <td>Full Body A</td>
-        </tr>
-        <tr>
-          <td>Sexta</td>
-          <td>Full Body B</td>
-        </tr>
-        <tr>
-          <td>Sábado</td>
-          <td>Descanso</td>
-        </tr>
-        <tr>
-          <td>Domingo</td>
-          <td>Descanso</td>
-        </tr>
-      </table>
-    </div>
+        <h2>📅 Divisão Semanal</h2>
+        <table>
+          <tr><th>Dia</th><th>Treino</th></tr>
+          <tr><td>Segunda</td><td>Full Body A</td></tr>
+          <tr><td>Terça</td><td>Full Body B</td></tr>
+          <tr><td>Quarta</td><td>Descanso</td></tr>
+          <tr><td>Quinta</td><td>Full Body A</td></tr>
+          <tr><td>Sexta</td><td>Full Body B</td></tr>
+          <tr><td>Sábado</td><td>Descanso</td></tr>
+          <tr><td>Domingo</td><td>Descanso</td></tr>
+        </table>
+      </div>
 
-    <div class="card">
-      <h2>🔥 Treino A</h2>
-      <table>
-        <tr>
-          <th>Exercício</th>
-          <th>Séries</th>
-          <th>Reps</th>
-          <th>Descanso</th>
-          <th>Carga (Kg)</th>
-          <th>🎥 Tutorial</th>
+      <!-- Treino A -->
+      <div class="card">
+        <h2>🔥 Treino A</h2>
+        <table>
+          <tr>
+            <th>Exercício</th><th>Séries</th><th>Reps</th><th>Descanso</th><th>Carga (Kg)</th><th>🎥 Tutorial</th>
+          </tr>
+          <tr>
+            <td>Agachamento Livre</td><td>4</td><td>8-10</td><td>90s</td>
+            <td><input type="number" placeholder="Kg" class="weight-input" data-exercicio="agachamento_livre"></td>
+            <td><a href="https://youtu.be/Dy28eq2PjcM" target="_blank">Ver</a></td>
+          </tr>
+          <tr>
+            <td>Supino Reto</td><td>4</td><td>8-10</td><td>90s</td>
+            <td><input type="number" placeholder="Kg" class="weight-input" data-exercicio="supino_reto"></td>
+            <td><a href="https://youtu.be/gRVjAtPip0Y" target="_blank">Ver</a></td>
+          </tr>
+          <tr>
+            <td>Remada Curvada</td><td>4</td><td>8-10</td><td>90s</td>
+            <td><input type="number" placeholder="Kg" class="weight-input" data-exercicio="remada_curvada"></td>
+            <td><a href="https://youtube.com/shorts/Nqh7q3zDCoQ" target="_blank">Ver</a></td>
+          </tr>
+          <tr>
+            <td>Desenvolvimento Ombros</td><td>3</td><td>10-12</td><td>60s</td>
+            <td><input type="number" placeholder="Kg" class="weight-input" data-exercicio="desenvolvimento_ombros"></td>
+            <td><a href="https://www.youtube.com/watch?v=B-aVuyhvLHU" target="_blank">Ver</a></td>
+          </tr>
+          <tr>
+            <td>Rosca Direta</td><td>3</td><td>10-12</td><td>60s</td>
+            <td><input type="number" placeholder="Kg" class="weight-input" data-exercicio="rosca_direta"></td>
+            <td><a href="https://www.youtube.com/watch?v=kwG2ipFRgfo" target="_blank">Ver</a></td>
+          </tr>
+          <tr>
+            <td>Tríceps Pulley</td><td>3</td><td>10-12</td><td>60s</td>
+            <td><input type="number" placeholder="Kg" class="weight-input" data-exercicio="triceps_pulley"></td>
+            <td><a href="https://www.youtube.com/watch?v=vB5OHsJ3EME" target="_blank">Ver</a></td>
+          </tr>
+          <tr>
+            <td>Abdômen (Prancha/Crunch)</td><td>3</td><td>30-45s ou 12-15</td><td>60s</td>
+            <td><input type="number" placeholder="Kg" class="weight-input" data-exercicio="abdomem_prancha_crunch"></td>
+            <td><a href="https://www.youtube.com/watch?v=pSHjTRCQxIw" target="_blank">Ver</a></td>
+          </tr>
+        </table>
+      </div>
 
-        </tr>
-        <tr>
-          <td>Agachamento Livre</td>
-          <td>4</td>
-          <td>8-10</td>
-          <td>90s</td>
-          <td><input type="number" placeholder="Kg" class="weight-input"></td>
-          <td>
-            <a
-              href="https://youtu.be/Dy28eq2PjcM?si=G4hT6kBukkWVYRml"
-              target="_blank"
-              >Ver</a
-            >
-          </td>
-        </tr>
-        <tr>
-          <td>Supino Reto</td>
-          <td>4</td>
-          <td>8-10</td>
-          <td>90s</td>
-          <td><input type="number" placeholder="Kg" class="weight-input"></td>
-          <td>
-            <a
-              href="https://youtu.be/gRVjAtPip0Y?si=5DyAOmkIht76CJpC"
-              target="_blank"
-              >Ver</a
-            >
-          </td>
-        </tr>
-        <tr>
-          <td>Remada Curvada</td>
-          <td>4</td>
-          <td>8-10</td>
-          <td>90s</td>
-          <td><input type="number" placeholder="Kg" class="weight-input"></td>
-          <td>
-            <a
-              href="https://youtube.com/shorts/Nqh7q3zDCoQ?si=Ate_LKUWPLKlpNVj"
-              target="_blank"
-              >Ver</a
-            >
-          </td>
-        </tr>
-        <tr>
-          <td>Desenvolvimento Ombros</td>
-          <td>3</td>
-          <td>10-12</td>
-          <td>60s</td>
-          <td><input type="number" placeholder="Kg" class="weight-input"></td>
-          <td>
-            <a
-              href="https://www.youtube.com/watch?v=B-aVuyhvLHU"
-              target="_blank"
-              >Ver</a
-            >
-          </td>
-        </tr>
-        <tr>
-          <td>Rosca Direta</td>
-          <td>3</td>
-          <td>10-12</td>
-          <td>60s</td>
-          <td><input type="number" placeholder="Kg" class="weight-input"></td>
-          <td>
-            <a
-              href="https://www.youtube.com/watch?v=kwG2ipFRgfo"
-              target="_blank"
-              >Ver</a
-            >
-          </td>
-        </tr>
-        <tr>
-          <td>Tríceps Pulley</td>
-          <td>3</td>
-          <td>10-12</td>
-          <td>60s</td>
-          <td><input type="number" placeholder="Kg" class="weight-input"></td>
-
-          <td>
-            <a
-              href="https://www.youtube.com/watch?v=vB5OHsJ3EME"
-              target="_blank"
-              >Ver</a
-            >
-          </td>
-        </tr>
-        <tr>
-          <td>Abdômen (Prancha/Crunch)</td>
-          <td>3</td>
-          <td>30-45s ou 12-15</td>
-          <td>60s</td>
-          <td><input type="number" placeholder="Kg" class="weight-input"></td>
-          <td>
-            <a
-              href="https://www.youtube.com/watch?v=pSHjTRCQxIw"
-              target="_blank"
-              >Ver</a
-            >
-          </td>
-        </tr>
-      </table>
-    </div>
-
-    <div class="card">
-      <h2>🔥 Treino B</h2>
-      <table>
-        <tr>
-          <th>Exercício</th>
-          <th>Séries</th>
-          <th>Reps</th>
-          <th>Descanso</th>
-          <th>Carga (Kg)</th>
-          <th>🎥 Tutorial</th>
-        </tr>
-        <tr>
-          <td>Levantamento Terra</td>
-          <td>4</td>
-          <td>8-10</td>
-          <td>90s</td>
-          <td><input type="number" placeholder="Kg" class="weight-input"></td>
-          <td>
-            <a
-              href="https://www.youtube.com/watch?v=op9kVnSso6Q"
-              target="_blank"
-              >Ver</a
-            >
-          </td>
-        </tr>
-        <tr>
-          <td>Supino Inclinado</td>
-          <td>4</td>
-          <td>8-10</td>
-          <td>90s</td>
-          <td><input type="number" placeholder="Kg" class="weight-input"></td>
-          <td>
-            <a
-              href="https://www.youtube.com/watch?v=DbFgADa2PL8"
-              target="_blank"
-              >Ver</a
-            >
-          </td>
-        </tr>
-        <tr>
-          <td>Pull-up ou Pulldown</td>
-          <td>4</td>
-          <td>8-10</td>
-          <td>90s</td>
-          <td><input type="number" placeholder="Kg" class="weight-input"></td>
-          <td>
-            <a
-              href="https://www.youtube.com/watch?v=eGo4IYlbE5g"
-              target="_blank"
-              >Ver</a
-            >
-          </td>
-        </tr>
-        <tr>
-          <td>Desenvolvimento Ombros (Lateral)</td>
-          <td>3</td>
-          <td>10-12</td>
-          <td>60s</td>
-          <td><input type="number" placeholder="Kg" class="weight-input"></td>
-
-          <td>
-            <a
-              href="https://www.youtube.com/watch?v=kDqklk1ZESo"
-              target="_blank"
-              >Ver</a
-            >
-          </td>
-        </tr>
-        <tr>
-          <td>Rosca Martelo</td>
-          <td>3</td>
-          <td>10-12</td>
-          <td>60s</td>
-          <td><input type="number" placeholder="Kg" class="weight-input"></td>
-
-          <td>
-            <a
-              href="https://www.youtube.com/watch?v=zC3nLlEvin4"
-              target="_blank"
-              >Ver</a
-            >
-          </td>
-        </tr>
-        <tr>
-          <td>Mergulho no Banco ou Tríceps Testa</td>
-          <td>3</td>
-          <td>10-12</td>
-          <td>60s</td>
-          <td><input type="number" placeholder="Kg" class="weight-input"></td>
-          <td>
-            <a
-              href="https://www.youtube.com/watch?v=0326dy_-CzM"
-              target="_blank"
-              >Ver</a
-            >
-          </td>
-        </tr>
-        <tr>
-          <td>Abdômen (Elevação de Pernas)</td>
-          <td>3</td>
-          <td>12-15</td>
-          <td>60s</td>
-          <td><input type="number" placeholder="Kg" class="weight-input"></td>
-
-          <td>
-            <a
-              href="https://www.youtube.com/watch?v=l4kQd9eWclE"
-              target="_blank"
-              >Ver</a
-            >
-          </td>
-        </tr>
-      </table>
-    </div>
+      <!-- Treino B -->
+      <div class="card">
+        <h2>🔥 Treino B</h2>
+        <table>
+          <tr>
+            <th>Exercício</th><th>Séries</th><th>Reps</th><th>Descanso</th><th>Carga (Kg)</th><th>🎥 Tutorial</th>
+          </tr>
+          <tr>
+            <td>Levantamento Terra</td><td>4</td><td>8-10</td><td>90s</td>
+            <td><input type="number" placeholder="Kg" class="weight-input" data-exercicio="levantamento_terra"></td>
+            <td><a href="https://www.youtube.com/watch?v=op9kVnSso6Q" target="_blank">Ver</a></td>
+          </tr>
+          <tr>
+            <td>Supino Inclinado</td><td>4</td><td>8-10</td><td>90s</td>
+            <td><input type="number" placeholder="Kg" class="weight-input" data-exercicio="supino_inclinado"></td>
+            <td><a href="https://www.youtube.com/watch?v=DbFgADa2PL8" target="_blank">Ver</a></td>
+          </tr>
+          <tr>
+            <td>Pull-up ou Pulldown</td><td>4</td><td>8-10</td><td>90s</td>
+            <td><input type="number" placeholder="Kg" class="weight-input" data-exercicio="pullup_pulldown"></td>
+            <td><a href="https://www.youtube.com/watch?v=eGo4IYlbE5g" target="_blank">Ver</a></td>
+          </tr>
+          <tr>
+            <td>Desenvolvimento Ombros (Lateral)</td><td>3</td><td>10-12</td><td>60s</td>
+            <td><input type="number" placeholder="Kg" class="weight-input" data-exercicio="desenvolvimento_lateral"></td>
+            <td><a href="https://www.youtube.com/watch?v=kDqklk1ZESo" target="_blank">Ver</a></td>
+          </tr>
+          <tr>
+            <td>Rosca Martelo</td><td>3</td><td>10-12</td><td>60s</td>
+            <td><input type="number" placeholder="Kg" class="weight-input" data-exercicio="rosca_martelo"></td>
+            <td><a href="https://www.youtube.com/watch?v=zC3nLlEvin4" target="_blank">Ver</a></td>
+          </tr>
+          <tr>
+            <td>Mergulho no Banco ou Tríceps Testa</td><td>3</td><td>10-12</td><td>60s</td>
+            <td><input type="number" placeholder="Kg" class="weight-input" data-exercicio="mergulho_triceps_testa"></td>
+            <td><a href="https://www.youtube.com/watch?v=0326dy_-CzM" target="_blank">Ver</a></td>
+          </tr>
+          <tr>
+            <td>Abdômen (Elevação de Pernas)</td><td>3</td><td>12-15</td><td>60s</td>
+            <td><input type="number" placeholder="Kg" class="weight-input" data-exercicio="abdomem_elevacao_pernas"></td>
+            <td><a href="https://www.youtube.com/watch?v=l4kQd9eWclE" target="_blank">Ver</a></td>
+          </tr>
+        </table>
+      </div>
 
     <div class="card">
       <h2>📊 Volume e Estrutura</h2>
@@ -339,4 +175,5 @@
       </p>
     </div>
   </body>
+  <script src="./script.js"></script>
 </html>

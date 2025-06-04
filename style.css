@@ -11,7 +11,7 @@
 body {
     background-color: var(--bg-color);
     color: var(--text-color);
-    font-family: 'Inter', 'Segoe UI', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 16px;
     line-height: 1.6;
@@ -105,3 +105,18 @@ table {
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
 }
+input.weight-input {
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 14px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+
+  input.weight-input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }

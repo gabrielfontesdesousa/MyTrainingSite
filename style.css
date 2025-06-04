@@ -1,0 +1,107 @@
+:root {
+    --bg-color: #121212;
+    --card-color: #1e1e1e;
+    --text-color: #f5f5f5;
+    --accent-color: #4ade80;
+    --border-color: #333;
+    --link-color: #60a5fa;
+    --heading-color: #ffffff;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 16px;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: var(--heading-color);
+    margin: 0 0 12px;
+}
+
+h1 {
+    font-size: clamp(1.8rem, 5vw, 2.2rem);
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 5px;
+}
+
+h2 {
+    font-size: clamp(1.4rem, 4vw, 1.7rem);
+    border-left: 4px solid var(--accent-color);
+    padding-left: 10px;
+}
+
+h3 {
+    font-size: clamp(1.1rem, 3.5vw, 1.3rem);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0 24px;
+}
+
+th, td {
+    width: 100%;
+    border: 1px solid var(--border-color);
+    padding: 10px 8px;
+    text-align: left;
+    font-size: clamp(0.9rem, 2.5vw, 1rem);
+}
+
+th {
+    background-color: var(--card-color);
+    color: var(--accent-color);
+    font-weight: 600;
+}
+
+td {
+    background-color: #1a1a1a;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    padding-left: 18px;
+}
+
+.card {
+    background-color: var(--card-color);
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+}
+
+/* Responsividade refinada */
+@media screen and (max-width: 480px) {
+    body {
+        padding: 12px;
+    }
+
+    th, td {
+        padding: 8px 6px;
+    }
+
+    .card {
+        padding: 14px;
+    }
+}
+
+/* Scroll horizontal suave para tabelas se necessário */
+table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}

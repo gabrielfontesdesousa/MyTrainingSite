@@ -40,7 +40,7 @@ h3 {
 
 table {
     width: 100%;
-    border-collapse: collapse;
+    borderollapse: collapse;
     margin: 12px 0 24px;
 }
 
@@ -91,6 +91,7 @@ ul {
 
     th, td {
         padding: 8px 6px;
+        width: 50%;
     }
 
     .card {
@@ -98,7 +99,6 @@ ul {
     }
 }
 
-/* Scroll horizontal suave para tabelas se necessário */
 table {
     display: block;
     overflow-x: auto;

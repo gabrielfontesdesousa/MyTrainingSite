@@ -40,7 +40,6 @@ h3 {
 
 table {
     width: 100%;
-    borderollapse: collapse;
     margin: 12px 0 24px;
 }
 
@@ -118,5 +117,5 @@ input.weight-input {
   input.weight-input:focus {
     outline: none;
     border-color: #007bff;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    box-shadow: 0 0 5px rgba( 0, 123, 255, 0.5);
   }

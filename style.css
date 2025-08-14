@@ -113,6 +113,15 @@ input.weight-input {
     font-size: 14px;
     transition: border-color 0.3s, box-shadow 0.3s;
   }
+  input.reps-input {
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 14px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
 
   input.weight-input:focus {
     outline: none;
